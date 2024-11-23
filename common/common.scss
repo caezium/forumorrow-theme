@@ -271,6 +271,12 @@ html.composer-open #main-outlet {
 
 
 //category listing boxes
+.custom-category-boxes:not(.above-discovery-categories-outlet) {
+  grid-gap: 10px;
+}
+.custom-category-header{
+  color: var(--tertiary);
+}
 .category-box-inner {
   background-color: var(--d-selected);
 }
