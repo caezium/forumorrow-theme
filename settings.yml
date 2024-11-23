@@ -2,6 +2,6 @@ hide_topic_footer_controls:
   default: true
   description: "Hides the reply/bookmark/share buttons at the bottom of each topic"
 bg_image:
-  default: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAJ9nMwAAAABJRU5ErkJggg==
+  default: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAJ9nMwAAAABJRU5ErkJggg=="
   type: upload
   
