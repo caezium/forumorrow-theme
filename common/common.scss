@@ -309,8 +309,10 @@ html {
   }
 }
 
+
+
 body {
-  background-image: url('{{setting.bg_image}}');
+  background-image: $bg_image;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
