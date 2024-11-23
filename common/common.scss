@@ -269,6 +269,19 @@ html.composer-open #main-outlet {
 }
 
 
+
+//category listing boxes
+.category-box-inner {
+  background-color: var(--d-selected);
+}
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo.no-logo-present {
+  width: 150px;
+}
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner {
+  column-gap: 30px;
+}
+
+
 //background color thing circle thing
 html {
   
