@@ -316,8 +316,7 @@ body{
 
 
 html{
-  --bg_image: $bg_image
-  background-image: var(var(--bg_image));
+  background-image: url($bg_image);
   background-repeat: no-repeat;
  // background-color: rgba(130, 130, 130, 0.9);
 //   background-color: rgba(var(--bg-overlay-color), 0.9);
