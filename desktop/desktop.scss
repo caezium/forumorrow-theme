@@ -25,6 +25,12 @@
     border: 2.5px solid var(--redditish-border-color);
     border-radius: 6px;
 }
+.custom-right-sidebar_welcome{
+    background-color: var(--selected);
+    h1, p{
+        color: var(--tertiary);
+    }
+}
 
 // .ember-text-field {
 //     height: 100px;
