@@ -237,7 +237,7 @@ html.composer-open #main-outlet {
 .before-header-panel-outlet {
   margin: 0;
   margin-left: 15vw;
-  display: flex;
+  display: flex !important;
   flex: 1;
   // grid-template-columns: auto auto !important;
   flex-direction: row-reverse;
