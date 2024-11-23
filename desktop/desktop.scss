@@ -1,0 +1,27 @@
+@import "showcased-categories";
+@import "chat-desktop";
+@import "sidebar-desktop";
+
+
+
+
+
+
+//color fix for search banner h1 color
+.above-main-container-outlet.search-banner,
+.custom-search-banner-wrap {
+    color: var(--secondary) !important;
+}
+
+
+.nav-pills,
+.custom-right-sidebar_category-about,
+.custom-right-sidebar_category-about -tags-and-subcategories,
+.custom-post-bar-contents,
+.navigation-bar,
+.custom-right-sidebar_welcome,
+.custom-right-sidebar_recent,
+.custom-topic-layout {
+    border: 6px solid var(--redditish-border-color) !important;
+    border-radius: 6px;
+}

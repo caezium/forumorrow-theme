@@ -1,0 +1,37 @@
+{
+  "name": "reddit",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
+  "color_schemes": {
+    "air-light-red": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "b61b69",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "selected": "d1f0ff",
+      "hover": "f2f2f2",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
+  },
+  "modifiers": {
+    "serialize_topic_excerpts": true,
+    "topic_thumbnail_sizes": [
+      [
+        620,
+        500
+      ]
+    ]
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
