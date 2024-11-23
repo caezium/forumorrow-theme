@@ -15,16 +15,21 @@
 
 
 .nav-pills,
-.custom-right-sidebar_category-about,
-.custom-right-sidebar_category-about -tags-and-subcategories,
 .custom-post-bar-contents,
 .navigation-bar,
-.custom-right-sidebar_welcome,
-.custom-right-sidebar_recent,
 .custom-topic-layout {
+    border: 2.5px solid var(--selected);
+}
+
+.custom-right-sidebar_category-about,
+.custom-right-sidebar_category-about -tags-and-subcategories,
+.custom-right-sidebar_welcome,
+.custom-right-sidebar_recent{
     border: 2.5px solid var(--redditish-border-color);
     border-radius: 6px;
 }
+
+
 .custom-right-sidebar_welcome{
     background-color: var(--selected);
     h1, p{
