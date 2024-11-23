@@ -19,6 +19,7 @@
 .navigation-bar,
 .custom-topic-layout {
     border: 2.5px solid var(--selected);
+    border-radius: 6px;
 }
 
 .custom-right-sidebar_category-about,
@@ -32,7 +33,7 @@
 
 .custom-right-sidebar_welcome{
     background-color: var(--selected);
-    h1, p{
+    h2, p{
         color: var(--tertiary);
     }
 }
