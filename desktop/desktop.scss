@@ -32,8 +32,8 @@
 
 
 .custom-right-sidebar_welcome{
-    background-color: var(--selected);
-    h2, p{
+    background-color: var(--selected) !important;
+    h2{
         color: var(--tertiary);
     }
 }
