@@ -292,7 +292,7 @@ html {
     background: linear-gradient(
       90deg,
       var(--tertiary-hover) 0%,
-      rgba(0, 0, 0, 0.6) 100%
+      rgba(0, 0, 0, 0.9) 100%
     );
     clip-path: polygon(
       0% 30%, /*topleft, topright, bot right, bot left*/
@@ -321,7 +321,6 @@ html{
  // background-color: rgba(130, 130, 130, 0.9);
 //   background-color: rgba(var(--bg-overlay-color), 0.9);
 
-  background-position: center;
   background-blend-mode: overlay;
   background-attachment: fixed;
   background-color: rgba(var(--bg-overlay-color), var(--bg-overlay-opacity)) !important;
