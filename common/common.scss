@@ -292,7 +292,7 @@ html {
     background: linear-gradient(
       90deg,
       var(--tertiary-hover) 0%,
-      rgba(0, 0, 0, 0.9) 100%
+      var(--tertiary) 100%
     );
     clip-path: polygon(
       0% 30%, /*topleft, topright, bot right, bot left*/
