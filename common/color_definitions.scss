@@ -7,15 +7,15 @@ $redditish-background-color: dark-light-choose(
 $redditish-border-color-light: #dedbe7; //$primary-low-mid
 $redditish-border-color-dark: #101011; //$primary-very-low
 
-$bg-overlay-color-light: rgb(0,0,0);
-$bg-overlay-color-dark: rgb(255,255,255);
+$bg-overlay-color-light: 255,255,255;
+$bg-overlay-color-dark: 0,0,0;
 
 $redditish-border-highlight-color-light: $primary-600;
 $redditish-border-highlight-color-dark: $primary-300;
 
 $redditish-border-color: $primary-low !default;
 $redditish-border-highlight-color: $primary-200 !default;
-$bg-overlay-color: rgb(255, 255, 255);
+$bg-overlay-color: 255, 255, 255;
 
 @if is-light-color-scheme() {
   $redditish-border-color: $redditish-border-color-light;
