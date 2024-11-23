@@ -312,11 +312,12 @@ html {
 
 
 body {
-  background-image: $bg_image;
+  // background-image: $bg_image;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAJ9nMwAAAABJRU5ErkJggg==);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  opacity: 0.9;
   position: relative;
 }
 body::after {
