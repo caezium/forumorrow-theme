@@ -18,7 +18,7 @@
 .custom-post-bar-contents,
 .navigation-bar,
 .custom-topic-layout {
-    border: 2.5px solid var(--selected);
+    border: 2.5px solid var(--d-selected);
     border-radius: 6px;
 }
 
@@ -32,7 +32,7 @@
 
 
 .custom-right-sidebar_welcome{
-    background-color: var(--selected) !important;
+    background-color: var(--d-selected) !important;
     h2{
         color: var(--tertiary);
     }

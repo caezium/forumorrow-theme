@@ -4,7 +4,7 @@ $redditish-background-color: dark-light-choose(
   $header_background
 );
 
-$redditish-border-color-light: #575583; //$primary-low-mid
+$redditish-border-color-light: var(--tertiary); //$primary-low-mid
 $redditish-border-color-dark: #101011; //$primary-very-low
 
 $bg-overlay-color-light: 255,255,255;
