@@ -10,7 +10,7 @@
 //color fix for search banner h1 color
 .above-main-container-outlet.search-banner,
 .custom-search-banner-wrap {
-    color: var(--secondary) !important;
+    color: var(--secondary);
 }
 
 
@@ -22,7 +22,7 @@
 .custom-right-sidebar_welcome,
 .custom-right-sidebar_recent,
 .custom-topic-layout {
-    border: 2.5px solid var(--redditish-border-color) !important;
+    border: 2.5px solid var(--redditish-border-color);
     border-radius: 6px;
 }
 

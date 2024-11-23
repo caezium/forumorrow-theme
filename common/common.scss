@@ -216,13 +216,13 @@ html.composer-open #main-outlet {
 
 //hide headersearch thing
 .custom-search-banner .search-menu {
-  display: none !important;
+  display: none;
 }
 
 
 // move right side bar down
 .custom-right-sidebar{
-  padding-top: 13.5em !important; 
+  padding-top: 13.5em; 
 }
 //make header banner text bigger
 .custom-search-banner h1 {
@@ -235,32 +235,32 @@ html.composer-open #main-outlet {
 
 //before header top bar thing
 .before-header-panel-outlet {
-  margin: 0 !important;
-  margin-left: 15vw !important;
-  display: flex !important;
+  margin: 0;
+  margin-left: 15vw;
+  display: flex;
   flex: 1;
   // grid-template-columns: auto auto !important;
   flex-direction: row-reverse;
-  justify-content: flex-end !important;
+  justify-content: flex-end;
   gap: 0;
-  width: 100% !important;
-  max-width:  55vw!important;
-  padding: 0 !important;
+  width: 100%;
+  max-width:  55vw;
+  padding: 0;
   align-items: center;
   // overflow: hidden;
 }
 .floating-search-input{
-  width: 30vw !important;
+  width: 30vw;
   margin-right: 7vw;
 }
 .floating-search-input::placeholder{
-  opacity: 0 !important;
-  visibility: hidden !important;
+  opacity: 0;
+  visibility: hidden;
 }
 .fk-d-button-tooltip {
   display: inline-flex;
-  align-items: flex-end !important;
-  width: 15vw !important;
+  align-items: flex-end;
+  width: 15vw;
 }
 
 .d-header .before-header-panel-outlet{
@@ -299,7 +299,7 @@ html {
       100% 10%,
       100% 72.5%,
       0% 95%
-    ) !important;
+    );
     opacity: 0.5;
   }
   

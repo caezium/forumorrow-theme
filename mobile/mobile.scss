@@ -40,38 +40,38 @@ body{
     border: 3px solid var(--redditish-border-color);
 }
 .custom-topic-layout_excerpt{
-    margin: .5em 2.4em 1em 0 !important;
+    margin: .5em 2.4em 1em 0;
 }
 .posts-wrapper{
     padding: 1em 1em 2em;
 }
 
 .navigation-controls{
-    display: none !important;
+    display: none;
 }
 .navigation-container{
-    width: 50% !important;
+    width: 50%;
 }
 
 //navigation bar
 .nav-pills{
-    background: var(--secondary-very-high) !important;
-    padding: 0px !important;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    border: 3px solid var(--d-selected) !important;
-    display: block !important;
+    background: var(--secondary-very-high);
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid var(--d-selected);
+    display: block;
 }
 
 
 .custom-search-banner-wrap{
-    padding-bottom: 0px !important;
-    padding: 0px !important;
-    margin-bottom: 0px !important;
+    padding-bottom: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
 }
 /* Hide the ember-view discoboery-navigationbar above the outlet custom post bar */
 .custom-post-bar-contents{
-  display: none !important;
+  display: none;
 }
 
 
