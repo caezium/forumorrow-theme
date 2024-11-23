@@ -214,16 +214,64 @@ html.composer-open #main-outlet {
     }
 }
 
-//search menu border
-.search-input{
-    border: 6px solid var(--redditish-border-color) !important;
+//hide headersearch thing
+.custom-search-banner .search-menu {
+  display: none !important;
 }
 
+
+// move right side bar down
+.custom-right-sidebar{
+  padding-top: 13.5em !important; 
+}
+//make header banner text bigger
+.custom-search-banner h1 {
+  font-size: 2.75em;
+  font-weight: bold;
+}
+.custom-search-banner p {
+  font-size: 1em;
+}
+
+//before header top bar thing
+.before-header-panel-outlet {
+  margin: 0 !important;
+  margin-left: 15vw !important;
+  display: flex !important;
+  flex: 1;
+  // grid-template-columns: auto auto !important;
+  flex-direction: row-reverse;
+  justify-content: flex-end !important;
+  gap: 0;
+  width: 100% !important;
+  max-width:  55vw!important;
+  padding: 0 !important;
+  align-items: center;
+  // overflow: hidden;
+}
+.floating-search-input{
+  width: 30vw !important;
+  margin-right: 7vw;
+}
+.floating-search-input::placeholder{
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+.fk-d-button-tooltip {
+  display: inline-flex;
+  align-items: flex-end !important;
+  width: 15vw !important;
+}
+
+.d-header .before-header-panel-outlet{
+  display: block;
+  grid-area: unset;
+}
 
 
 //background color thing circle thing
 html {
-  /*
+  
   body:not(.no-ember) {
     background: linear-gradient(
         0deg,
@@ -231,26 +279,51 @@ html {
         rgba(var(--primary-rgb), 0.075) 100%
       ),
       linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%) !important;
-  }*/
+  }
   
   .background-container {
-    position: fixed !important;
-    top: 0;
+    position: absolute !important;
+    top: -40%;
     left: 0;
     height: 100vh !important;
     width: 100vw !important;
+    //z-index: -1;
+
     background: linear-gradient(
       90deg,
       var(--tertiary-hover) 0%,
       var(--tertiary) 100%
     );
-    clip-path: ellipse(148% 70% at 91% -14%) !important;
+    clip-path: polygon(
+      0% 30%, /*topleft, topright, bot right, bot left*/
+      100% 10%,
+      100% 72.5%,
+      0% 95%
+    ) !important;
     color: var(--secondary) !important;
   }
   
-  /*
+  
   body.no-ember .background-container {
     display: none;
-  }*/ 
+  }
 }
 
+body {
+  background-image: url('{{setting.bg_image}}');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: relative;
+}
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  z-index: -1;
+}
