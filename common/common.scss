@@ -295,12 +295,12 @@ html.composer-open #main-outlet {
 
 //category listing boxes
 .custom-category-boxes:not(.above-discovery-categories-outlet) {
-  grid-gap: 0.5em !important;
+  grid-gap: 0.75em !important;
 }
 .custom-category-header{
   color: var(--tertiary);
   font-weight: bolder;
-  border-bottom: 5px solid var(--tertiary)
+  border-bottom: 5px solid var(--tertiary) !important;
 }
 .category-box-inner,
 .custom-right-sidebar_category-about{
