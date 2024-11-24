@@ -290,7 +290,7 @@ body {
 
 //category listing boxes
 .custom-category-boxes:not(.above-discovery-categories-outlet) {
-  grid-gap: 0.25em;
+  grid-gap: 0.25em !important;
 }
 .custom-category-header{
   color: var(--tertiary);
@@ -299,7 +299,7 @@ body {
   background-color: var(--d-selected);
 }
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo.no-logo-present {
-  width: 150px;
+  width: 150px !important;
 }
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner {
   column-gap: 30px;
