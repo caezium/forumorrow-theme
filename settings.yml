@@ -5,3 +5,7 @@ bg_image:
   default: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAJ9nMwAAAABJRU5ErkJggg=="
   type: upload
   description: "upload an image to use as the site background"
+maincat_image:
+  default: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wIAAgMBAJ9nMwAAAABJRU5ErkJggg=="
+  type: upload
+  description: "upload an image to as the cat on the main page"
