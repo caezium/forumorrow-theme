@@ -244,6 +244,7 @@ html.composer-open #main-outlet {
 
 .custom-right-sidebar_welcome > a{
   text-decoration: underline !important;
+  font-weight: bold;
 }
 
 //make header banner text bigger
@@ -297,7 +298,7 @@ html.composer-open #main-outlet {
   background-color: var(--tertiary);
 }
 .floating-search-input .search-banner-inner.wrap .search-menu .search-input {
-    border: 2px solid var(--tertiary);
+  border: 2px solid var(--tertiary);
 }
 
 .d-header .before-header-panel-outlet{
@@ -357,12 +358,11 @@ html.composer-open #main-outlet {
   }
 }
 .custom-post-bar-contents{
-  background-color: var(--d-selected);
-  padding-bottom: 4em;
+  padding-bottom: 3em;
   border-radius: 15px;
 }
-.custom-post-bar-contents{
-  border-radius: 15px;
+.custom-post-bar-contents input{
+  background-color: var(--d-selected);
 }
 
 
