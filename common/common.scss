@@ -298,9 +298,20 @@ html.composer-open #main-outlet {
   }
 }
 
+.d-icon-plus{
+  color: var(--secondary);
+}
+
+.search-term::placeholder{
+  display: none;
+}
 
 
-.btn-flat .d-icon, .json-editor-btn-collapse .d-icon, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-collapse .d-icon {
+.d-icon-sliders,
+.d-icon-bars,
+.d-icon-d-chat,
+.d-icon-sun,
+.d-icon-moon{
   color: var(--tertiary);
   transition: var(--d-selected);
 }
