@@ -321,6 +321,7 @@ html.composer-open #main-outlet {
     color: var(--tertiary) !important;
   }
   border-radius: 15px !important;
+  border: 5px solid var(--d-selected);
 }
 
 //category listing boxes
@@ -358,15 +359,24 @@ html.composer-open #main-outlet {
   align-self: flex-start;
 }
 .custom-post-bar,
-.custom-right-sidebar_recent-topics-wrappper,
 .discovery-navigation-bar-above-outlet .custom-post-bar,
 #navigation-bar{
-  border: 5px solid var(--d-selected);
+  border: 5px solid var(--d-selected) !important;
   border-radius: 15px;
 }
-.custom-post-bar-contents input {
+.custom-right-sidebar_recent-topics-wrappper{
+  border: 2px solid var(--d-selected) !important;
+  border-radius: 15px;
+  &:hover {
+    border: 2px solid var(--d-selected) !important;
+  }
+}
+.custom-post-bar-contents{
   background-color: var(--d-selected);
   padding-bottom: 4em;
+  border-radius: 15px;
+}
+.custom-post-bar-contents{
   border-radius: 15px;
 }
 
@@ -428,7 +438,6 @@ html{
   background-color: rgba(var(--bg-overlay-color), var(--bg-overlay-opacity)) !important;
 
   .cat-image {
-    src: url($maincat_image);
     position: absolute;
     bottom: calc(100vh * 0.275);
     right: 5%;
