@@ -336,6 +336,17 @@ html.composer-open #main-outlet {
 }
 
 
+.custom-right-sidebar_recent{
+  h2, h3{
+    color: var(--tertiary) !important;
+  }
+}
+.custom-right-sidebar_recent-topics-wrappper{
+  border: 2px solid var(--d-selected);
+  border-radius: 25px;
+}
+
+
 //background color thing circle thing
 html {
   

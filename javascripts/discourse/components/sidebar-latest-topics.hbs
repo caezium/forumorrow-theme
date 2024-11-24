@@ -1,4 +1,4 @@
-<h4>{{theme-i18n "recent_topics"}}</h4>
+<h3>{{theme-i18n "recent_topics"}}</h3>
 <div
   class="custom-right-sidebar_recent-topics"
   {{did-insert this.getLatestTopics}}
@@ -16,6 +16,7 @@
               <span class="bullet-separator">&bull;</span>
             {{/unless}}
           {{/unless}}
+          <span class="bullet-separator">&bull;</span>
           <span class="custom-topic-layout_meta-posted">
             <span class="custom-topic-layout_meta-posted-by">Posted by</span>
             <a
@@ -32,7 +33,7 @@
         </div>
 
         <h2 class="link-top-line">
-          {{~topic-link topic class="raw-link raw-topic-link"}}
+          {{~topic-link topic class="raw-link raw-topic-link" }}
 
         </h2>
 
