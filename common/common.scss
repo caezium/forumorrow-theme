@@ -43,7 +43,7 @@
 
 body {
   background: var(--redditish-bg-color);
-  background-image: none !important; /* overrides category bg because we use it for banners instead */
+  background-image: none; /* overrides category bg because we use it for banners instead */
 
   &:not(.has-sidebar-page) {
     .sidebar-wrapper {
@@ -197,8 +197,26 @@ html.composer-open #main-outlet {
 
 
 
+//custom font - reddit sans
+@font-face {
+  font-family: 'Reddit Sans';
+  src: url('RedditSans-Regular.woff2') format('woff2'),
+      url('RedditSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-
+body {
+    font-family: 'Reddit Sans';
+    font-size: .875rem;
+    h1{
+      font-size: 2rem;
+    }
+    h2{
+      font-size: 1.125rem;
+    }
+}
 
 //main outlet shifting to the left when zooming in fix
 
@@ -341,7 +359,7 @@ html{
 //   background-color: rgba(var(--bg-overlay-color), 0.9);
 
   background-blend-mode: overlay;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   background-color: rgba(var(--bg-overlay-color), var(--bg-overlay-opacity)) !important;
 
   
