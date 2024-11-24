@@ -1,26 +1,36 @@
 <div class="custom-topic-layout">
 
   <div class="custom-topic-layout_meta">
+    <span class="custom-topic-layout_meta-posted">
+        <a
+          data-user-card={{topic.posters.0.user.username}}
+          href="/u/{{topic.posters.0.user.username}}"
+          style="font-size: 1.2em;"
+        >{{topic.posters.0.user.username}}</a>
+        <span class="bullet-separator">&bull;</span>
+        <span class="custom-topic-layout_meta-posted-by">
+          {{theme-i18n "posted_by"}}
+        </span>
+        {{format-date
+          topic.createdAt
+          format="medium"
+          noTitle="true"
+          leaveAgo="true"
+        }}
+    </span>
+    <span class="bullet-separator">&bull;</span>
     {{#unless hideCategory}}
       {{#unless topic.isPinnedUncategorized}}
         {{~raw-plugin-outlet name="topic-list-before-category"}}
-        {{category-link topic.category}}
-        <span class="bullet-separator">&bull;</span>
+        <a href="{{category-link-url topic.category}}"
+          class="category-link"
+          style="color: {{topic.category.color}}; text-decoration: none;"
+        >
+          {{category-link topic.category}}
+        </a>
       {{/unless}}
     {{/unless}}
-    <span class="custom-topic-layout_meta-posted">
-      <span class="custom-topic-layout_meta-posted-by">Posted by</span>
-      <a
-        data-user-card={{topic.posters.0.user.username}}
-        href="/u/{{topic.posters.0.user.username}}"
-      >@{{topic.posters.0.user.username}}</a>
-      {{format-date
-        topic.createdAt
-        format="medium"
-        noTitle="true"
-        leaveAgo="true"
-      }}
-    </span>
+    
   </div>
 
   <h2 class="link-top-line">
