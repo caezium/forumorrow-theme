@@ -295,8 +295,12 @@ body {
 .custom-category-header{
   color: var(--tertiary);
 }
-.category-box-inner {
+.category-box-inner,
+.custom-right-sidebar_category-about{
   background-color: var(--d-selected);
+  h3, h4{
+    color: var(--tertiary);
+  }
 }
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo.no-logo-present {
   width: 150px !important;
