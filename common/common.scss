@@ -270,7 +270,16 @@ html.composer-open #main-outlet {
   width: 30vw;
   margin-right: 7vw;
 }
-.floating-search-input::placeholder{
+.search-menu{
+  border-radius: 10px;
+  border-color: var(--tertiary);
+  color: var(--tertiary);
+}
+.btn .no-text .btn-icon .show-advanced-search,
+.btn .no-text .btn-icon .btn .search-icon{
+  color: var(--tertiary);
+}
+.search-input::placeholder{
   opacity: 0;
   visibility: hidden;
 }
@@ -278,7 +287,19 @@ html.composer-open #main-outlet {
   display: inline-flex;
   align-items: flex-end;
   width: 15vw;
+  background-color: var(--tertiary) !important;
+  color: var(--secondary) !important;
+  &:hover {
+    background-color: var(--d-selected) !important;
+  }
 }
+
+.fa .d-icon .d-icon-bars .svg-icon .svg-string,
+.fa .d-icon .d-icon-moon .svg-icon .svg-string,
+.fa .d-icon .d-icon-d-chat .svg-icon .svg-string{
+  color: var(--tertiary);
+}
+
 
 .d-header .before-header-panel-outlet{
   display: block;
