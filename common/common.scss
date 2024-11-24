@@ -290,13 +290,6 @@ html.composer-open #main-outlet {
   align-items: flex-end;
   width: 15vw;
 }
-.btn, .d-modal.json-schema-editor-modal .je-ready button, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add{
-  background-color: var(--tertiary) !important;
-  color: var(--secondary) !important;
-  &:hover {
-    background-color: var(--d-selected) !important;
-  }
-}
 
 .d-icon-plus{
   color: var(--secondary);
