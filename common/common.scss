@@ -299,7 +299,8 @@ body {
 }
 .custom-category-header{
   color: var(--tertiary);
-  font-weight: bold;
+  font-weight: bolder;
+  border-bottom: 5px solid var(--tertiary)
 }
 .category-box-inner,
 .custom-right-sidebar_category-about{
