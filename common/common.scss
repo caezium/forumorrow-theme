@@ -12,9 +12,9 @@
   border: 1px solid var(--redditish-border-color);
   background: var(--secondary);
   .discourse-no-touch & {
-    &:hover {
-      border: 1px solid var(--redditish-border-highlight-color);
-    }
+    // &:hover {
+    //   border: 1px solid var(--redditish-border-highlight-color);
+    // }
   }
 }
 
@@ -123,9 +123,9 @@ body {
 
 .sidebar-wrapper .sidebar-container {
   border-right: 1px solid var(--redditish-border-color);
-  &:hover {
-    border-color: var(--redditish-border-highlight-color);
-  }
+  // &:hover {
+  //   border-color: var(--redditish-border-highlight-color);
+  // }
 }
 
 .sidebar-section-wrapper
