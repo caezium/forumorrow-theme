@@ -253,7 +253,7 @@ html.composer-open #main-outlet {
   font-weight: bold;
 }
 .custom-search-banner p {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 //before header top bar thing
@@ -296,6 +296,18 @@ html.composer-open #main-outlet {
 
 #new-create-topic {
   background-color: var(--tertiary);
+  .d-button-label{
+    color: var(--secondary);
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+}
+svg.fa .d-icon .d-icon-plus .svg-icon .svg-string{
+  color: var(--secondary);
+  &:hover {
+    color: var(--secondary);
+  }
 }
 .floating-search-input .search-banner-inner.wrap .search-menu .search-input {
   border: 2px solid var(--tertiary);
@@ -337,6 +349,12 @@ html.composer-open #main-outlet {
 }
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner {
   column-gap: 30px;
+}
+
+
+
+.topic-list-body{
+  gap: 0.15em;
 }
 
 
