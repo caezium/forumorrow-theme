@@ -1,7 +1,7 @@
 :root {
   --d-button-border-radius: 100px;
   --d-nav-pill-border-radius: 100px;
-  --d-input-border-radius: 10px;
+  --d-input-border-radius: 25px;
   --topic-body-width: 900px;
 }
 
@@ -279,14 +279,13 @@ html.composer-open #main-outlet {
 .btn .no-text .btn-icon .btn .search-icon{
   color: var(--tertiary);
 }
-.search-input::placeholder{
-  opacity: 0;
-  visibility: hidden;
-}
+
 .fk-d-button-tooltip {
   display: inline-flex;
   align-items: flex-end;
   width: 15vw;
+}
+.btn, .d-modal.json-schema-editor-modal .je-ready button, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add{
   background-color: var(--tertiary) !important;
   color: var(--secondary) !important;
   &:hover {
@@ -294,9 +293,7 @@ html.composer-open #main-outlet {
   }
 }
 
-.fa .d-icon .d-icon-bars .svg-icon .svg-string,
-.fa .d-icon .d-icon-moon .svg-icon .svg-string,
-.fa .d-icon .d-icon-d-chat .svg-icon .svg-string{
+.d-icon{
   color: var(--tertiary);
 }
 
@@ -310,8 +307,8 @@ html.composer-open #main-outlet {
 //topic listing changes
 .custom-topic-layout{
   h2{
-    color: var(--tertiary);
-    font-size: 2em;
+    color: var(--tertiary) !important;
+    font-weight: bold !important;
   }
 }
 
