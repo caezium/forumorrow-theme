@@ -293,8 +293,10 @@ html.composer-open #main-outlet {
   }
 }
 
-.d-icon{
-  color: var(--tertiary);
+.d-header{
+  .d-icon{
+    color: var(--tertiary);
+  }
 }
 
 
