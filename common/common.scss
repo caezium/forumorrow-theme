@@ -242,11 +242,6 @@ html.composer-open #main-outlet {
   padding-top: 13.5em; 
 }
 
-.custom-right-sidebar_welcome > a{
-  text-decoration: underline !important;
-  font-weight: bold;
-}
-
 //make header banner text bigger
 .custom-search-banner h1 {
   font-size: 2.75em;
@@ -281,10 +276,6 @@ html.composer-open #main-outlet {
   border-color: var(--tertiary);
   color: var(--tertiary);
 }
-.btn .no-text .btn-icon .show-advanced-search,
-.btn .no-text .btn-icon .btn .search-icon{
-  color: var(--tertiary);
-}
 
 .fk-d-button-tooltip {
   display: inline-flex;
@@ -304,11 +295,12 @@ html.composer-open #main-outlet {
   }
 }
 svg.fa .d-icon .d-icon-plus .svg-icon .svg-string{
-  color: var(--secondary);
+  color: var(--secondary) !important;
   &:hover {
-    color: var(--secondary);
+    color: var(--secondary) !important;
   }
 }
+
 .floating-search-input .search-banner-inner.wrap .search-menu .search-input {
   border: 2px solid var(--tertiary);
 }
