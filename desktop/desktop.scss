@@ -18,7 +18,7 @@
 .custom-post-bar-contents,
 .navigation-bar,
 .custom-topic-layout {
-    border: 5px solid var(--d-selected);
+    border: 4px solid var(--d-selected);
     border-radius: 15px;
 }
 
@@ -26,7 +26,7 @@
 .custom-right-sidebar_category-about -tags-and-subcategories,
 .custom-right-sidebar_welcome,
 .custom-right-sidebar_recent{
-    border: 5px solid var(--redditish-border-color);
+    border: 4px solid var(--redditish-border-color);
     border-radius: 15px;
 }
 
@@ -39,8 +39,8 @@
 }
 
 .btn-primary {
-    padding-left: 8em !important;
-    padding-right: 8em !important;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
 }
 
 // .ember-text-field {
