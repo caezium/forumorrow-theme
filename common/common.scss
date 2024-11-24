@@ -253,7 +253,7 @@ html.composer-open #main-outlet {
   font-weight: bold;
 }
 .custom-search-banner p {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 //before header top bar thing
@@ -354,12 +354,12 @@ svg.fa .d-icon .d-icon-plus .svg-icon .svg-string{
 
 
 .topic-list-body{
-  gap: 0.15em;
+  gap: 0.15em !important;
 }
 
 
 
-.custom-post-bar,
+
 .discovery-navigation-bar-above-outlet .custom-post-bar,
 #navigation-bar{
   border: 4px solid var(--d-selected) !important;
@@ -378,9 +378,12 @@ svg.fa .d-icon .d-icon-plus .svg-icon .svg-string{
 .custom-post-bar-contents{
   padding-bottom: 3em;
   border-radius: 15px;
+  border: 4px solid var(--d-selected) !important;
+  border-radius: 15px;
 }
 .custom-post-bar-contents input{
   background-color: var(--d-selected);
+  padding-bottom: 3em;
 }
 
 
