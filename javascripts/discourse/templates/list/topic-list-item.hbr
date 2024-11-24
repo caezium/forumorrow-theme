@@ -5,7 +5,8 @@
         <a
           data-user-card={{topic.posters.0.user.username}}
           href="/u/{{topic.posters.0.user.username}}"
-        >@{{topic.posters.0.user.username}}</a>
+          class="user-avatar-link"
+        >{{avatar topic.posters.0.user.username size="small"}}{{topic.posters.0.user.username}}</a>
         <span class="bullet-separator">&bull;</span>
         <span class="custom-topic-layout_meta-posted-by">
           {{theme-i18n "posted_by"}}
@@ -21,7 +22,12 @@
     {{#unless hideCategory}}
       {{#unless topic.isPinnedUncategorized}}
         {{~raw-plugin-outlet name="topic-list-before-category"}}
-        {{category-link topic.category}}
+        <a href="{{category-link-url topic.category}}"
+          class="category-link"
+          style="color: {{topic.category.color}}; text-decoration: none;"
+        >
+          {{category-link topic.category}}
+        </a>
       {{/unless}}
     {{/unless}}
     
