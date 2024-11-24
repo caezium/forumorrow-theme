@@ -200,8 +200,7 @@ html.composer-open #main-outlet {
 //custom font - reddit sans
 @font-face {
   font-family: 'Reddit Sans';
-  src: url('RedditSans-Regular.woff2') format('woff2'),
-      url('RedditSans-Regular.woff') format('woff');
+  src: url('RedditSans[wght].woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -296,10 +295,11 @@ body {
 
 //category listing boxes
 .custom-category-boxes:not(.above-discovery-categories-outlet) {
-  grid-gap: 0.25em !important;
+  grid-gap: 0.5em !important;
 }
 .custom-category-header{
   color: var(--tertiary);
+  font-weight: bold;
 }
 .category-box-inner,
 .custom-right-sidebar_category-about{
