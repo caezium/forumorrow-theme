@@ -5,7 +5,7 @@
         <a
           data-user-card={{topic.posters.0.user.username}}
           href="/u/{{topic.posters.0.user.username}}"
-          style="font-size: 1.1em;"
+          style="font-size: 1.2em;"
         >{{topic.posters.0.user.username}}</a>
         <span class="bullet-separator">&bull;</span>
         <span class="custom-topic-layout_meta-posted-by">

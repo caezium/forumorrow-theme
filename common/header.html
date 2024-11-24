@@ -1,2 +1,6 @@
 <div class="background-container"></div>
-<img src="{{theme-setting 'maincat_image'}}" alt="cat" class="cat-image">
+{{#if (theme-setting 'maincat_image')}}
+        <img src="{{theme-setting 'maincat_image'}}" alt="cat" class="cat-image">
+{{else}}
+        <img src="{{theme-setting 'bg_image'}}" alt="notfound" class="cat-image">
+{{/if}}

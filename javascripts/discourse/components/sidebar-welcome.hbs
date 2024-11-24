@@ -4,14 +4,14 @@
     <p>
       {{html-safe (theme-i18n "top_route_description")}}
     </p>
-    {{#if (and this.currentUser this.currentUser.can_create_topic)}}
+    {{!-- {{#if (and this.currentUser this.currentUser.can_create_topic)}}
       <DButton
         @class="btn-primary"
         @id="custom-create-topic"
         @action={{action "customCreateTopic"}}
         @label="topic.create"
       />
-    {{/if}}
+    {{/if}} --}}
   </div>
   <div class="custom-right-sidebar_recent">
     <SidebarLatestTopics />

@@ -241,6 +241,11 @@ html.composer-open #main-outlet {
 .custom-right-sidebar{
   padding-top: 13.5em; 
 }
+
+.custom-right-sidebar_welcome > a{
+  text-decoration: underline;
+}
+
 //make header banner text bigger
 .custom-search-banner h1 {
   font-size: 2.75em;
@@ -311,7 +316,7 @@ html.composer-open #main-outlet {
   h2{
     color: var(--tertiary) !important;
   }
-  border-radius: 15px;
+  border-radius: 15px !important;
 }
 
 //category listing boxes
@@ -343,9 +348,10 @@ html.composer-open #main-outlet {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  a{
-    margin-top: 0;
-  }
+}
+.custom-post-bar > a{
+  margin-top: 0;
+  align-self: flex-start;
 }
 .custom-right-sidebar_recent-topics-wrappper,
 .discovery-navigation-bar-above-outlet .custom-post-bar,
@@ -355,7 +361,7 @@ html.composer-open #main-outlet {
 }
 .custom-post-bar-contents input {
   background-color: var(--d-selected);
-  padding-bottom: 5em;
+  padding-bottom: 3em;
   border-radius: 15px;
 }
 
