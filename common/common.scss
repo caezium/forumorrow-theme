@@ -343,7 +343,16 @@ html.composer-open #main-outlet {
   border: 4px solid var(--d-selected);
   border-radius: 15px;
 }
-
+#navigation-bar{
+  border: 4px solid var(--d-selected);
+  border-radius: 15px;
+}
+.custom-post-bar-contents input {
+  background-color: var(--d-selected);
+  border: 4px solid var(--d-selected);
+  padding-bottom: 5em;
+  border-radius: 15px;
+}
 
 //background color thing circle thing
 html {
